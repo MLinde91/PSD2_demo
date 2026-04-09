@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>PSD2 Demo</title>
+</head>
+<body>
+
+  <h1>PSD2 Demo</h1>
+  <p>Dit is stap 1: de basis staat.</p>
+
+</body>
+</html>
+``
