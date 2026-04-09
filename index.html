@@ -7,8 +7,22 @@
 <body>
 
   <h1>PSD2 Demo</h1>
-  <p>Dit is stap 1: de basis staat.</p>
+  <p>Stap 2: Toestemming geven</p>
+
+  <button id="consentBtn">
+    Geef toestemming om bankdata te lezen
+  </button>
+
+  <p id="status"></p>
+
+  <script>
+    const button = document.getElementById("consentBtn");
+    const statusText = document.getElementById("status");
+
+    button.addEventListener("click", function () {
+      statusText.textContent = "✅ Toestemming gegeven. Data ophalen...";
+    });
+  </script>
 
 </body>
 </html>
-``
